@@ -1,0 +1,25 @@
+# Node dependencies
+node_modules/
+dist/
+.env
+.env.local
+
+# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Hugging Face Space submodule/clone (already in its own git repo)
+mughal-art-classifier/
+
+# Uploads & Logs
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.log
+
+# Large model binaries
+weights/
+*.pt
+*.pth
+*.joblib
